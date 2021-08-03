@@ -6,7 +6,9 @@ body {
   background-position: center;
   background-clip: padding-box;
   background-origin: padding-box;
-  background-size: auto auto;
+  background-size: cover;
+  padding: o;
+  margin: 0;
 }
 
 .gf {
@@ -19,6 +21,8 @@ body {
   justify-content: space-between;
   margin-right: auto;
   margin-left: auto;
+  padding-top: 2em;
+  padding-bottom: 2em;
   font-family: "Rubik", sans-serif;
 }
 
