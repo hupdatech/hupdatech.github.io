@@ -1,0 +1,21 @@
+h1 {
+  background: red;
+  margin: 20px;
+  border: 4px ridge white;
+  padding: 40px 6px 30px 25px;
+  width: 200px;
+  height: 60px;
+  font-size: 30px;
+}
+
+
+p, ol, ul {
+  margin: 100px 100px 100px 150px;
+}
+
+div {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 800;
+  background: orange;
+  padding: 10px 30px;
+}

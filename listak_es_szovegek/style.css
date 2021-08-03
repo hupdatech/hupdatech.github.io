@@ -1,0 +1,26 @@
+body {
+  font-family: "Baloo Thambi 2", cursive;
+  font-weight: 100;
+  }
+
+h1 {
+  color: #f45d4a;
+  padding: 10px;
+  width: 30%;
+  border-bottom: 1px solid #f45d4a;
+}
+
+h2 {
+  color: #7b2cc3;
+}
+
+.liColoured
+{color: #FD70FA}
+
+ol{
+list-style-type: square;  
+}
+
+.romainList{
+  list-style-type: upper-roman;  
+}

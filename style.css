@@ -1,0 +1,55 @@
+body {
+  background-color: white;
+  background-image: url(tt500pxkidtt.png);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center;
+  background-clip: padding-box;
+  background-origin: padding-box;
+  background-size: auto auto;
+}
+
+.gf {
+  margin: 0;
+  background-color: #e9e9e9e7;
+  min-width: 550px;
+  max-width: 50%;
+  height: 100%;
+  display: block;
+  justify-content: space-between;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: "Rubik", sans-serif;
+}
+
+.gf h1 {
+  color: rgb(15, 158, 110);
+  border-bottom: chocolate 4px solid;
+  padding: 10px 0px 5px 0px;
+  display: inline-block;
+  margin: 0 0 0 20px;
+  font-weight: 900;
+  font-size: 2.5em;
+}
+
+.gf li {
+  padding-left: 0.4em;
+  padding-bottom: 0.1em;
+  margin-left: 0.4em;
+  margin-right: 0.4em;
+
+  color: chocolate;
+  font-size: 1.5em;
+}
+
+.gf a {
+  color: rgb(165, 71, 4);
+  background-color: rgba(255, 99, 71, 0);
+  transition: 2s;
+  text-decoration: unset;
+}
+
+.gf a:hover {
+  text-decoration: underline;
+  background-color: rgba(255, 99, 71, 0.746);
+}

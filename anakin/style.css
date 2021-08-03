@@ -1,0 +1,90 @@
+#header {
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 700px;
+  width: 70%;
+  background-image: url("https://raw.githubusercontent.com/green-fox-academy/myfirstapp-syllabus/master/assets/first-website-header.png");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  height: 200px;
+  background-size: cover;
+}
+
+#main {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 600px;
+  background-color: rgba(255, 255, 255, 0.808);
+  padding: 15px;
+}
+
+h1 {
+  font-family: "Abril Fatface", cursive;
+  font-size: 2em;
+  color: black;
+  line-height: 1.2em;
+  padding: 40px;
+  text-align: justify;
+  text-shadow: 0px 0px 5px rgba(255, 255, 255, 1);
+}
+
+.xtraLarge {
+  font-size: 1.5em;
+}
+
+.mybold {
+  font-weight: 900;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  text-shadow: 1px 1px 5px rgb(0, 0, 0);
+}
+
+h2 {
+  font-variant-caps: all-small-caps;
+  font-size: 2em;
+}
+h3 {
+  margin: 0;
+  line-height: 1em;
+}
+h4 {
+  line-height: 1em;
+  padding: 0;
+  margin: 0;
+  font-style: italic;
+}
+
+body {
+  font-family: "Josefin Sans";
+  font-size: 1.3em;
+  line-height: 1.4em;
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+  background-image: url(https://c4.wallpaperflare.com/wallpaper/1005/822/563/star-wars-death-star-at-at-space-wallpaper-preview.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+blockquote::before {
+  line-height: 1.3em;
+  margin: 0;
+  padding: 1em;
+  content: open-quote;
+  quotes: "“" "”";
+}
+
+blockquote {
+  font-family: "Merriweather", serif;
+  display: block;
+  background-color: rgba(0, 0, 0, 0.787);
+  color: white;
+  margin: 0.5em;
+  padding: 1em;
+  font-size: 1.6em;
+  line-height: 1.5em;
+}
+
+hr {
+  border: 2px dotted black;
+}

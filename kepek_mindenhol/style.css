@@ -1,0 +1,26 @@
+.mainContainer {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.picContainer {
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+    transition-timing-function: ease-in-out;
+  transition-duration: 3s;
+}
+
+.cardHolder {
+  margin: 2px;
+}
+
+img {
+  width: 200px;
+}
+
+img:hover {
+  width: 250px;
+  margin: 0;
+}

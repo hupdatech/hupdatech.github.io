@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>CodePen - bonyolult űrlap</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- partial:index.partial.html -->
+    <form action="submit">
+      <fieldset>
+        <legend>Interesting app form</legend>
+        <fieldset>
+          <legend>Neve</legend>
+          <input type="text" name="neve" />
+        </fieldset>
+        <fieldset>
+          <legend>rádiógombok</legend>
+          <input type="radio" name="gender" id="male" />
+          <label for="male">Férfi</label>
+          <input type="radio" name="gender" id="female" />
+          <label for="female">Nő</label>
+        </fieldset>
+        <fieldset>
+          <legend>textarea</legend>
+          <textarea name="textarea" id="textarea" cols="30" rows="3"></textarea>
+        </fieldset>
+        <br />
+        <button>submit</button>
+      </fieldset>
+    </form>
+    <!-- partial -->
+  </body>
+</html>

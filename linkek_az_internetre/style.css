@@ -1,0 +1,14 @@
+.mylink {
+  margin: 0 0 10px 0;
+  border-left: 3px solid green;
+  border-radius: 30px;
+  padding: 2px;
+  display: block;
+  font-family: "Sen", sans-serif;
+  color: green;
+  text-decoration: none;
+}
+.mylink:hover {
+  color: lime;
+  border-color: lime;
+}

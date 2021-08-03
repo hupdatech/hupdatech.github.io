@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+}
+
+.header {
+  background-color: purple;
+}
+
+.container {
+  margin: 0;
+  width: 50%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+ul.container {
+  padding: 0;
+  margin: 0;
+}
+li.item {
+  margin: 1%;
+  display: table-cell;
+  vertical-align: center;
+  text-align: center;
+  background-color: cyan;
+  min-width: 80px;
+  height: 30px;
+  line-height: 30px;
+  list-style-type: none;
+  flex-grow: 1;
+  border: thin solid deepskyblue;
+  border-radius: 10px;
+  box-shadow: 3px 3px 1px 1px black;
+}
+
+li.item:hover{
+  box-shadow: 0px 0px 3px 3px grey;
+}
+
+.mainBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: justify;
+}
+
+main {
+  margin: 0;
+  background-color: yellow;
+  height: 500px;
+  flex-grow: 4;
+}
+
+aside {
+  margin: 0;
+  background-color: green;
+  height: 500px;
+  flex-grow: 1;
+}

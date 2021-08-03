@@ -1,0 +1,45 @@
+input {
+  display: block;
+  padding: 5px;
+  border: 2px solid green;
+  border-radius: 10px;
+}
+label {
+  display: block;
+  text-transform: uppercase;
+  padding: 5px;
+}
+
+button {
+  font-family: "Baloo Thambi 2", cursive;
+  font-size: 12px;
+  font-weight: 100;
+  text-transform: uppercase;
+  background: green;
+  color: white;
+  border-radius: 10%;
+  padding: 10px;
+  margin: 15px 0 0 0;
+}
+
+form {
+  font-family: "Baloo Thambi 2", cursive;
+  font-size: 14px;
+  font-weight: 900;
+  width: 200px;
+  border: solid 3px green;
+  border-radius: 10%;
+  margin: 40px;
+  padding: 20px;
+}
+
+p {
+  font-family: "Baloo Thambi 2", cursive;
+  font-size: 24px;
+  font-weight: 900;
+  text-align: center;
+  color: white;
+  display: block;
+  padding: 20px;
+  margin: 0;
+}

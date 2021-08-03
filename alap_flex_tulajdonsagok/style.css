@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.item {
+  margin: 5px;
+  width: 450px;
+  height: 150px;
+  box-shadow: 2px 7px 10px grey; 
+  display: block;
+  text-align: center;
+  vertical-align: bottom;
+  line-height: 100%;
+}
+
+.green {
+  background-color: #51d400;
+}
+.yellow {
+  background-color: #ffd62a;
+}
+.purple {
+  background-color: #b02afe;
+  color: white;
+}
