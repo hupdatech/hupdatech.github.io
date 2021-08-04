@@ -22,3 +22,18 @@ if (myAge >= 21) {
 } else {
   console.log("get out here, you r too young there is a bomb in there");
 }
+
+// jQuery rész
+console.log("**** Itt elindult a jquery lekérdezés ****");
+
+console.log(`ide kiírom a <h1> tag tartalmát: ${$("h1").text()}`);
+
+$("h1").text("Lecseréltem JS-ből az eredetit erre.");
+
+$(".yellowBg").css("background-color", "red");
+
+$("p").html("Lecseréltem <strong>JS-ből</strong> bold elemre.");
+
+$("h2").replaceWith("<h3>na megy-e?</h3>");
+
+$("h1").replaceWith("<h2>és most a h1-t, h2-re</h2>");
