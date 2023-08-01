@@ -4,3 +4,10 @@ li {
 .yellowBg {
   background-color: chartreuse;
 }
+#contForColorBoxes {
+  display: inline-flex;
+}
+.box {
+  width: 20px;
+  height: 20px;
+}

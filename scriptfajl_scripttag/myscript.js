@@ -37,3 +37,50 @@ $("p").html("Lecseréltem <strong>JS-ből</strong> bold elemre.");
 $("h2").replaceWith("<h3>na megy-e?</h3>");
 
 $("h1").replaceWith("<h2>és most a h1-t, h2-re</h2>");
+
+$("ul").append("<li>új elem</li>");
+
+$(".yellowBg").remove();
+
+$("h2").toggleClass("yellowBg");
+
+function liAdder() {
+  $("ul").append("<li>új elem</li>");
+}
+
+function liRemover() {
+  $("li:last-of-type").remove();
+}
+
+function liAdder10() {
+  for (i = 0; i < 10; i++) {
+    $("ul").append(`<li>${i + 1}. új elem</li>`);
+  }
+}
+
+function liRemoveTen() {
+  for (i = 0; i < 10; i++) {
+    liRemover();
+  }
+}
+
+$("#add").click(liAdder);
+$("#remove").click(liRemover);
+$("#add10").click(liAdder10);
+$("#removeTen").click(liRemoveTen);
+
+let colors = [
+  "red",
+  "blue",
+  "magenta",
+  "black",
+  "orange",
+  "yellow",
+  "green",
+  "teal",
+];
+colors.forEach((color) => {
+  console.log(color);
+  $("#contForColorBoxes").append('<div class="box"></div>');
+  $(".box:last-of-type").css("background-color", color);
+});
